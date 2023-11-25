@@ -31,5 +31,12 @@ int main()
 	cout << "Oct of 'a': " << oct << int(ch) << endl;
 	cout << "Hex of 'a': " << hex << int(ch) << endl;
 
+	number = 0123;
+	cout << " Number taken is : 0123"  << endl; 
+	cout << " decimal: " << dec << number << "\t octal: " << oct << number << "\t hexadecimal: " << hex << number << endl;
+
+	number = 0x123;
+	cout << " Number taken is : 0x123" << endl;
+        cout << " decimal: " << dec << number << "\t octal: " << oct << number << "\t hexadecimal: " << hex << number << endl;
 	return 0;
 }
